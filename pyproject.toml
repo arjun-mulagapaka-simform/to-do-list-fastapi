@@ -1,0 +1,7 @@
+[project]
+name = "todolist"
+version = "0.1.0"
+description = "To do list project built in FastAPI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
