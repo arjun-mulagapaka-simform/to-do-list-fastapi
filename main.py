@@ -1,6 +1,5 @@
-def main():
-    print("Hello from todolist!")
+from fastapi import FastAPI
+from routes import task
 
-
-if __name__ == "__main__":
-    main()
+server = FastAPI()
+server.include_router(task.router)
